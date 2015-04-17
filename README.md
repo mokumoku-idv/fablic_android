@@ -28,7 +28,9 @@
 
 ※テスターに配布するには**Crashlytics**をインストールする必要がある  
 （インストール方法は上記の"SDKをインストール"を参照）  
-1. apkファイルを出力(Build -> Generate Signed APK から作成可能)  
+1. apkファイルを出力  
+    * Build -> Generate Signed APK から作成可能  
+    * debug・releaseの選択可能（指示通り進めていくと選択画面が出てくる）  
 2. fabricアイコンを押下  
 3. 配布するプロジェクトを選択  
 4. **Distributions**を選択し、先ほど作成したapkファイルをドラッグ＆ドロップ  
